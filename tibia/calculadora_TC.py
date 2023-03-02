@@ -1,26 +1,8 @@
-def format_tc(valor):
-    tc_format_ = f"{float(valor):_.0f}".replace("_",".")
-    return tc_format_
 
-def format_real(valor):
-    real_format_ = f"{float(valor):,.2f}".replace(".",",").replace("_",".")
-    return real_format_
-     
-def values_(msg):
     
-     
-    while True:
-        try:
-            num = float(input(msg))
-            break
-        except:
-            print("Por favor, digite apenas valores númericos, para números Reais deve-se substituir a virgula(',') por pontos('.')")
-    return num
+    
+from modulos.format_valores import format_tc, format_real, lines_, values_
 
-def lines_():
-    print("-=-"*20)
-    
-    
 gold_hor = values_("Gold por Hora: ")
 hor_in_day = values_("Horas farmando por dia: ")
 work_days = values_("Por quantos dias: ")
