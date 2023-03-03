@@ -30,7 +30,7 @@
           float: retorna o valor formatado para formatação em Reais
       """
 
-      real_format_ = f"{float(valor):,.2f}".replace(".",",").replace("_",".")
+      real_format_ = f"{float(valor):_.2f}".replace(".",",").replace("_",".")
       return real_format_
 
 ![def_format_real](https://user-images.githubusercontent.com/86204984/222589882-4395febf-ff32-41ee-8c14-05f3b0554278.jpg)
