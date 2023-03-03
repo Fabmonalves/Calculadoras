@@ -1,5 +1,5 @@
 # [Calculadora Investimento](https://github.com/Fabmonalves/Calculadoras/tree/main/calculadora_investimento)
-## 🙋‍♂️ Olá, Neste topico temos os programas de calculos que podem ser uteis para jogadores do Tibia, podemos calcular os valores e converter para Reias, muito útil para jogadores, visto que a moeda TibiaCoins é negociavel, podendo converter para Reais 💸💲
+## 🙋‍♂️ Olá, Neste topico temos uma calculadora de investimentos, que nos da uma projeção de qunato o usuario conseghue juntar com os dados inseridos no codigo 💸💲
 
 ##### segue abaixo a explicação de cada função feita e com os codigos para entender como funciona
 
