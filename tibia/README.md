@@ -126,3 +126,9 @@
 ![image](https://user-images.githubusercontent.com/86204984/222595517-d5e4315d-8048-479b-b785-21a5fdd3fa8f.png)
 
 
+## Resultado do programa acima:
+
+![image](https://user-images.githubusercontent.com/86204984/222599318-3f9ec3ae-e4d3-4361-8290-aaa85a17b3f2.png)
+
+
+
