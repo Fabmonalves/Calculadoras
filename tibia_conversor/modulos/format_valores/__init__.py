@@ -16,7 +16,7 @@ def format_real(valor):
         float: retorna o valor formatado para formatação em Reais
     """
     
-    real_format_ = f"{float(valor):,.2f}".replace(".",",").replace("_",".")
+    real_format_ = f"{float(valor):_.2f}".replace(".",",").replace("_",".")
     return real_format_
      
      
