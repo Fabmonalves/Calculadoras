@@ -18,7 +18,7 @@
       tc_format_ = f"{float(valor):_.0f}".replace("_",".")
       return tc_format_
     
-<center>![def_format_tc](https://user-images.githubusercontent.com/86204984/222589871-2ae9ea1f-75a8-4259-b08a-dd477e986060.jpg)</center>
+<center> ![def_format_tc](https://user-images.githubusercontent.com/86204984/222589871-2ae9ea1f-75a8-4259-b08a-dd477e986060.jpg) </center>
 
 -----------------------------------------------------------------------------------------------------
 
