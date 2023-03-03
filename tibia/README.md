@@ -101,7 +101,7 @@
         lines_()
         print(f"Vai conseguir pegar R${format_real(total_tc_real)} vendendo as {format_tc(total_tc)}_TCs")
 
-![image](https://user-images.githubusercontent.com/86204984/222594716-04d1376f-9617-4593-ab8a-9f3d068b2fab.png)
+![image](https://user-images.githubusercontent.com/86204984/222595889-7aaa0176-28b5-4c77-aa64-e588589df185.png)
 
 
 ## Resultado do programa acima:
