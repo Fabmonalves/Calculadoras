@@ -1,11 +1,11 @@
-# [Conversor de Valores](https://github.com/Fabmonalves/Calculadoras/tree/main/tibia)
+# [Conversor de Valores](https://github.com/Fabmonalves/Calculadoras/tree/main/tibia_conversor)
 ## 🙋‍♂️ Olá, Neste topico temos os programas de calculos que podem ser uteis para jogadores do Tibia, podemos calcular os valores e converter para Reias, muito útil para jogadores, visto que a moeda TibiaCoins é negociavel, podendo converter para Reais 💸💲
 
 ##### segue abaixo a explicação de cada função feita e com os codigos para entender como funciona
 
 
 
-## [Funções do codigo](https://github.com/Fabmonalves/Calculadoras/blob/main/tibia/modulos/format_valores/__init__.py) (Atalho direto para o documento)
+## [Funções do codigo](https://github.com/Fabmonalves/Calculadoras/tree/main/tibia_conversor/modulos/format_valores) (Atalho direto para o documento)
 
 #### `format_tc`: recebe 1 parametro `int/float`, formata o valor inserido em formato tibiano (Gold/TCs)
     def format_tc(valor):
@@ -72,7 +72,7 @@
 
 -----------------------------------------------------------------------------------------------------
 
-### [O Codigo](https://github.com/Fabmonalves/Calculadoras/blob/main/tibia/calculadora_TC.py) (Atalho direto para o codigo) 
+### [O Codigo](https://github.com/Fabmonalves/Calculadoras/blob/main/tibia_conversor/calculadora_TC.py) (Atalho direto para o codigo) 
 
     from modulos.format_valores import format_tc, format_real, lines_, values_
 
@@ -109,7 +109,7 @@
 ![image](https://user-images.githubusercontent.com/86204984/222593706-76248b21-6713-4f7d-aa50-46418c239eac.png)
 
 -----------------------------------------------------------------------------------------------------
-### [Calculadora de Shared](https://github.com/Fabmonalves/Calculadoras/blob/main/tibia/calculadora_shared.py) (Atalho direto para o codigo)
+### [Calculadora de Shared](https://github.com/Fabmonalves/Calculadoras/blob/main/tibia_conversor/calculadora_shared.py) (Atalho direto para o codigo)
 #### Codigo simples mas bem útil pra Jogadores, para saber se um Chair(personagem) compartilha experiencia com o outro
 
 ### O Codigo
