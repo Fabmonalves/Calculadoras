@@ -1,31 +1,5 @@
-def tratamento_value(msg):
-    """Tratamento de erro, usado para input, para garantir que o usuário nos passe os dados corretos, nesse caso deve ser usar um valor do tipo int/float
-
-    Args:
-        msg (int/float): usar apenas valores int/float, substituindo a ',' por '.'
-
-    Returns:
-        float: valor será retornado um float, caso o usuario use outro tipo de dados dara um erro e voltara para inserir os dados novamente
-    """
-    while True:
-        try:
-            num =  float(input(msg))
-            break
-        except:
-            print('por favor, me informe um valor valido, valor tipo "int | float"')    
-    return num
-
-def format_real(valor):
-    """Função para converter os valores no formato Real-BR (R$)
-
-    Returns:
-        float: retorna o valor formatado para formatação em Reais
-    """
+from modulos import tratamento_value, format_real, lines_
     
-    real_format_ = f"{float(valor):_.2f}".replace(".",",").replace("_",".")
-    return real_format_
-
-
 tx_selic = tratamento_value('Digite o valor da TX Selic ao ano: ')
 valor_investido = tratamento_value("Digite o valor que deseja investir: ")
 
@@ -55,9 +29,14 @@ for valor in range(dia_investimento):
         
 valor_dia_investido_total = valor_dia_lucro + valor_investido + valor_mes
 
+lines_()
 print(f"O valor acumulado em Juros é R$ {format_real(valor_dia_lucro)}")
+lines_()
 print(f"Investido todo mês R$ {format_real(valor_mes)}")
+lines_()
 print(f"Valor acumulado total é R$ {format_real(valor_dia_investido_total)} em {prazo_ano} anos")
-print('Simulação feira sem considerar o IR')
+lines_()
+print('Simulação feira sem considerar o IR ********')
+lines_()
     
     
