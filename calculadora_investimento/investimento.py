@@ -1,3 +1,5 @@
+
+
 from modulos import tratamento_value, format_real, lines_
     
 tx_selic = tratamento_value('Digite o valor da TX Selic ao ano: ')

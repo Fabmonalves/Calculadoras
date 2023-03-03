@@ -1,3 +1,6 @@
+
+
+
 def tratamento_value(msg):
     """Tratamento de erro, usado para input, para garantir que o usuário nos passe os dados corretos, nesse caso deve ser usar um valor do tipo int/float
 
