@@ -2,6 +2,6 @@
 
 ### Aqui está algumas informaçãoes importantes
 
-##### Tibia, Calculadoras uteis: https://github.com/Fabmonalves/Calculadoras/tree/main/tibia
+##### Tibia, Calculadoras uteis: https://github.com/Fabmonalves/Calculadoras/tree/main/tibia_conversor
 
 
